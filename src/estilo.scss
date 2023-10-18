@@ -1,0 +1,15 @@
+$colorTop: -45deg, rgba(34,195,126,1) 0%;
+$colorMedio: rgba(201,145,249,1) 66%;
+$colorBottom: rgba(255,160,199,1) 100%;
+
+body, .gradient { 
+    background: $colorTop;
+    background: linear-gradient($colorTop,$colorMedio,$colorBottom);
+    color:#FFF;
+}
+
+$body-color: #220268;
+
+.columnMenor, .fondo{
+    color: $body-color;
+}

@@ -1,0 +1,10 @@
+{
+    // comment
+    title: 'Ejemplo JSON5',
+    owner: {
+      name: 'alumna... Mariana Pérez',
+      organization: 'UVM',
+      bio: 'Módulo 5\n\
+  Práctica de Webpack.',
+    },
+  }

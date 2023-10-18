@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.holacolor {
+    color: purple
+}
+
+.columnMayor,
+.columnMenor {
+    display: inline-block
+}
+
+.columnMayor {
+    width: 48%
+}
+
+.columnMenor {
+    width: 36%;
+    text-align: center;
+    padding-top: 8%;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 767px) {
+    .columnMayor,
+    .columnMenor {
+        width: 100%;
+    }
+}
+
+h1 {
+    width: 100%;
+    display: inline-block;
+    font-family: 'digital-7';
+}
+
+.mascot {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+.mascot img {margin-left: 8px;}
+
+.uvmlogo {
+    width: 120px;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin: 8px auto;
+}

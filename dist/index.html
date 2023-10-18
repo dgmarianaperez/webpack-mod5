@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="dgmarianaperez">
+    <title>Práctica final de Webpack</title>
+</head>
+<body>
+    <div class="columnMayor">
+    <div id="container">
+        <div class="row">
+            <h1>Calculadora</h1>
+        </div>
+        <div class="row">
+            <label for="number1">Número 1</label>
+            <input type="text" id='n1'>
+        </div>
+        <div class="row">
+            <label for="number1">Número 2</label>
+            <input type="text" id='n2'>
+        </div>
+        <div class="row">
+            <label for="op">Operación</label>
+            <select name="op" id="op">
+                <option value="+">Suma</option>
+                <option value="-">Resta</option>
+                <option value="*">Multiplicación</option>
+                <option value="/">División</option>
+            </select>
+        </div>
+        <div class="row">
+            <button id="btn" class="gradient">Resolver</button>
+        </div>
+        <div class="row">
+            <code id="res"></code>
+        </div>
+    </div>   
+    </div>
+
+    <script src="bundle.js"></script>
+
+</body>
+</html>
+
+<!-- Ejecuta webpack desde temrinal con npm run build -->
